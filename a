@@ -1,0 +1,10 @@
+animal1 = input("enter an animal name ")
+animal2 = input("enter an animal name ")
+animal3 = input("enter an animal name ")
+
+print(animal1)
+print()
+print(animal2)
+print()
+print(animal3)
+print()
