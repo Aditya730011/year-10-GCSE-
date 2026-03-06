@@ -1,0 +1,15 @@
+temperatures = [34,21,8,48,3]
+hotdays=0
+totaltemp = 0
+for i in temperatures:
+    if i >= 20:
+        print("hot day")
+        hotdays += 1
+    else:
+        print("cold day")
+    totaltemp += i
+
+average = totaltemp/len(temperatures)
+
+print("average temp = ", average)
+print("hot days = ", hotdays)
