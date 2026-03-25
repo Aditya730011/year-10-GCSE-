@@ -1,0 +1,24 @@
+txt = input("")
+atxt = txt [::-1]
+print(atxt)
+amntvowels = 0
+amntconsonant = 0
+
+
+def check_characters(txt):
+    vowels = "aeiouAEIOU"
+    amntvowels = 0
+    amntconsonant = 0
+
+    for char in txt:
+        if char in vowels:
+            amntvowels+=1
+        else:
+            amntconsonant+=1
+
+print("vowels: ", amntvowels)
+print("consonants: ", amntconsonant) 
+
+
+
+check_characters(txt)
