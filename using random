@@ -1,0 +1,8 @@
+import random
+import time
+num = int(input(""))
+print(num)
+print("...")
+time.sleep(2)
+random_num = random.randint(1,10)
+print("my random number is ", random_num)
